@@ -4,21 +4,21 @@
   padding-bottom: 60px;
 }
 
-.footer-container {
+.footer__container {
   display: flex;
   align-items: baseline;
 }
 
-.footer-contact-container {
+.footer__contact {
   margin-right: 70px;
   flex-grow: 1;
 }
 
-.address-item {
+.address__item {
   margin-top: 20px;
 }
 
-.address-link {
+.address__link {
   color: $primery-white-color;
   text-decoration: none;
 
@@ -28,11 +28,11 @@
   letter-spacing: 0.03em;
 }
 
-.contact-item {
+.contact__item {
   margin-top: 9px;
 }
 
-.contact-link {
+.contact__link {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   margin-top: 9px;
@@ -50,13 +50,13 @@
 }
 
 /* Footer social */
-.footer-social-container {
+.social__container {
   width: 206px;
   height: 80px;
   margin-right: 93px;
 }
 
-.social-link-title {
+.social__title {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;

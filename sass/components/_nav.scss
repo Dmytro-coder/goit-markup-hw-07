@@ -1,79 +1,82 @@
 .nav {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .site-nav {
-    display: flex;
-    margin-left: 93px;
+  display: flex;
+  margin-left: 93px;
 }
 
-.site-nav .site-nav-item+.site-nav-item {
-    margin-left: 50px;
+.site-nav .site-nav-item + .site-nav-item {
+  margin-left: 50px;
 }
 
 .site-nav-link {
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    position: relative;
-    color: $title-text-color;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    transition: color $transition;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  position: relative;
+  color: $title-text-color;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  transition: color $transition;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 
-.site-nav-link:hover,
-.site-nav-link:focus,
 .site-nav-link.current {
-    color: $accent-color;
+  color: $accent-color;
 }
 
 .site-nav-link.current::after {
-    position: absolute;
-    content: '';
-    height: 4px;
-    left: 0;
-    bottom: -1px;
-    right: 0;
-    background: $accent-color;
-    border-radius: 2px;
+  position: absolute;
+  content: '';
+  height: 4px;
+  left: 0;
+  bottom: -1px;
+  right: 0;
+  background: $accent-color;
+  border-radius: 2px;
 }
 
 .contact-nav {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
 }
 
-.contact-nav .contact-nav-item+.contact-nav-item {
-    margin-left: 50px;
+.contact-nav .contact-nav-item + .contact-nav-item {
+  margin-left: 50px;
 }
 
 .contact-nav-link {
-    display: inline-flex;
-    align-items: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
+  display: inline-flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
-    color: $primery-text-color;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    transition: color $transition;
-}
+  color: $primery-text-color;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  transition: color $transition;
 
-.contact-nav-link:hover,
-.contact-nav-link:focus {
+  &:hover,
+  &:focus {
     color: $accent-color;
+  }
 }
 
 .contact-icon {
-    margin-right: 10px;
-    fill: currentColor;
+  margin-right: 10px;
+  fill: currentColor;
 }

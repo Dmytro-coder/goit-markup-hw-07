@@ -1,44 +1,44 @@
 .features {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .features-card {
-    width: 270px;
+  width: 270px;
 }
 
 .features-icon-container {
-    display: flex;
-    justify-content: center;
-    height: 120px;
-    background-color: $secondary-bg-color;
-    border-radius: 4px;
-    margin-bottom: 30px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  height: 120px;
+  background-color: $secondary-bg-color;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .features-icon {
-    width: 70px;
+  width: 70px;
 }
 
 .features-title {
-    color: $title-text-color;
-    margin-bottom: 10px;
-    margin-top: 0;
+  color: $title-text-color;
+  margin-bottom: 10px;
+  margin-top: 0;
 
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .features-text {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
