@@ -2,15 +2,15 @@
   display: flex;
 }
 
-.work .work-card + .work-card {
+.work .work__card + .work__card {
   margin-left: 30px;
 }
 
-.section-work {
+.section__work {
   padding-top: 0;
 }
 
-.work-card {
+.work__card {
   position: relative;
 }
 

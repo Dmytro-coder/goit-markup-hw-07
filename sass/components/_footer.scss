@@ -68,19 +68,19 @@
   margin-top: 0;
 }
 
-.social-link-list {
+.social-link__list {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
-.social-list-item {
+.social-list__item {
   width: 44px;
   height: 44px;
 }
 
-.team-social-link,
-.footer-social-link {
+.team-social__link,
+.footer-social__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,7 +89,7 @@
   border-radius: 50%;
 }
 
-.footer-social-link {
+.footer-social__link {
   background: rgba(255, 255, 255, 0.1);
   fill: $primery-white-color;
   transition: background-color $transition;
