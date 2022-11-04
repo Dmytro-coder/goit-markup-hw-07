@@ -101,11 +101,11 @@
 }
 
 /* Foter subscription button */
-.footer-subscription-container {
+.footer-subscription__container {
   width: 570px;
 }
 
-.subscription-title {
+.subscription__title {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -148,7 +148,7 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-button {
+.footer__button {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -178,7 +178,7 @@
   }
 }
 
-.send-icon {
+.send__icon {
   display: flex;
   justify-content: center;
   align-items: center;

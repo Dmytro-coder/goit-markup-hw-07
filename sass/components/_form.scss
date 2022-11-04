@@ -5,7 +5,7 @@
   padding: 40px;
 }
 
-.form-title {
+.form__title {
   margin-bottom: 12px;
   margin-top: 0;
   font-weight: 700;
@@ -16,7 +16,7 @@
   color: $title-text-color;
 }
 
-.form-send {
+.form__send {
   display: block;
   font-size: 12px;
   line-height: 1.17;
@@ -29,7 +29,7 @@
   margin-bottom: 10px;
 }
 
-.form-input {
+.form__input {
   width: 100%;
   padding: 11px 12px 11px 42px;
   font-size: 16px;
@@ -49,7 +49,7 @@
   }
 }
 
-.form-input::placeholder {
+.form__input::placeholder {
   font-size: 16px;
   line-height: 1.25;
   align-items: center;
@@ -57,12 +57,12 @@
   color: rgba(117, 117, 117, 0.5);
 }
 
-.form-send textarea {
+.form__send textarea {
   margin-bottom: 20px;
   margin-top: 4px;
 }
 
-.comment-field {
+.comment__field {
   display: block;
   width: 100%;
   height: 120px;
@@ -85,7 +85,7 @@
   }
 }
 
-.comment-field::placeholder {
+.comment__field::placeholder {
   font-size: 12px;
   line-height: 1.17;
   align-items: center;
@@ -93,7 +93,7 @@
   color: rgba(117, 117, 117, 0.5);
 }
 
-.form-icon {
+.form__icon {
   position: absolute;
   top: 50%;
   left: 12px;
@@ -102,12 +102,12 @@
   transition: fill $transition;
 }
 
-.form-input:hover ~ .form-icon,
-.form-input:focus ~ .form-icon {
+.form__input:hover ~ .form__icon,
+.form__input:focus ~ .form__icon {
   fill: $accent-color;
 }
 
-.form-field-terms {
+.form-field__terms {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -120,23 +120,23 @@
   fill: $primery-white-color;
 }
 
-.form-field-terms > a {
+.form-field__terms > a {
   color: $accent-color;
 }
 
-.form-field-checkbox:checked ~ .icon-checkbox {
+.form-field__checkbox:checked ~ .icon__checkbox {
   border: none;
   background-color: $accent-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.icon-checkbox {
+.icon__checkbox {
   border: 1px solid $black-color;
   border-radius: 2px;
   transition: border $transition, background-color $transition, box-shadow $transition;
 }
 
-.form-button {
+.form__button {
   display: flex;
   justify-content: center;
   align-items: center;
