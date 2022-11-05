@@ -23,9 +23,7 @@
   text-decoration: none;
 
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include fonts-properties($fw: inherit, $fs: 14px, $lh: 1.71, $ls: 0.03em);
 }
 
 .contact__item {
@@ -38,9 +36,7 @@
   margin-top: 9px;
 
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include fonts-properties($fw: inherit, $fs: 14px, $lh: 1.71, $ls: 0.03em);
   transition: color $transition;
 
   &:hover,
@@ -58,12 +54,10 @@
 
 .social__title {
   font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include fonts-properties($fw: 700, $fs: 14px, $lh: 1.14, $ls: 0.03em);
   text-transform: uppercase;
   color: $primery-white-color;
+
   margin-bottom: 20px;
   margin-top: 0;
 }
@@ -107,12 +101,10 @@
 
 .subscription__title {
   font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include fonts-properties($fw: 700, $fs: 14px, $lh: 1.14, $ls: 0.03em);
   text-transform: uppercase;
   color: $primery-white-color;
+
   margin-bottom: 20px;
   margin-top: 0;
 }
@@ -162,12 +154,9 @@
   height: 50px;
 
   color: $primery-white-color;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
+  @include fonts-properties($fw: 700, $fs: 16px, $lh: 1.88, $ls: 0.06em);
   align-items: center;
   text-align: center;
-  letter-spacing: 0.06em;
   cursor: pointer;
   transition: background-color $transition, box-shadow $transition;
 

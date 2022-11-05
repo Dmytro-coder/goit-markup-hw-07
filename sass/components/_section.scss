@@ -8,9 +8,6 @@
   margin-top: 0;
   margin-bottom: 50px;
 
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
+  @include fonts-properties($fw: 700, $fs: 36px, $lh: 1.17, $ls: 0.03em);
   text-align: center;
-  letter-spacing: 0.03em;
 }

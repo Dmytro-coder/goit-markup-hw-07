@@ -386,6 +386,7 @@ a {
   color: #ffffff;
   text-decoration: none;
   font-style: normal;
+  font-weight: inherit;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -400,6 +401,7 @@ a {
   text-decoration: none;
   margin-top: 9px;
   font-style: normal;
+  font-weight: inherit;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -535,9 +537,9 @@ a {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.06em;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.06em;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -567,13 +569,14 @@ a {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: #212121;
 }
 
 .form__send {
   display: block;
+  font-weight: inherit;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
@@ -607,26 +610,29 @@ a {
 }
 
 .form__input::-moz-placeholder {
+  font-weight: inherit;
   font-size: 16px;
   line-height: 1.25;
-  align-items: center;
   letter-spacing: 0.03em;
+  align-items: center;
   color: rgba(117, 117, 117, 0.5);
 }
 
 .form__input:-ms-input-placeholder {
+  font-weight: inherit;
   font-size: 16px;
   line-height: 1.25;
-  align-items: center;
   letter-spacing: 0.03em;
+  align-items: center;
   color: rgba(117, 117, 117, 0.5);
 }
 
 .form__input::placeholder {
+  font-weight: inherit;
   font-size: 16px;
   line-height: 1.25;
-  align-items: center;
   letter-spacing: 0.03em;
+  align-items: center;
   color: rgba(117, 117, 117, 0.5);
 }
 
@@ -640,6 +646,7 @@ a {
   width: 100%;
   height: 120px;
   padding: 12px 16px;
+  font-weight: inherit;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
@@ -657,26 +664,29 @@ a {
 }
 
 .comment__field::-moz-placeholder {
+  font-weight: inherit;
   font-size: 12px;
   line-height: 1.17;
-  align-items: center;
   letter-spacing: 0.01em;
+  align-items: center;
   color: rgba(117, 117, 117, 0.5);
 }
 
 .comment__field:-ms-input-placeholder {
+  font-weight: inherit;
   font-size: 12px;
   line-height: 1.17;
-  align-items: center;
   letter-spacing: 0.01em;
+  align-items: center;
   color: rgba(117, 117, 117, 0.5);
 }
 
 .comment__field::placeholder {
+  font-weight: inherit;
   font-size: 12px;
   line-height: 1.17;
-  align-items: center;
   letter-spacing: 0.01em;
+  align-items: center;
   color: rgba(117, 117, 117, 0.5);
 }
 
@@ -695,6 +705,7 @@ a {
   align-items: center;
   gap: 7px;
   margin-bottom: 30px;
+  font-weight: inherit;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -733,8 +744,8 @@ a {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -799,9 +810,9 @@ a {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.06em;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.06em;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -913,11 +924,11 @@ footer .logo span {
   padding-top: 32px;
   padding-bottom: 32px;
   position: relative;
-  color: #212121;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: #212121;
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -954,11 +965,11 @@ footer .logo span {
   align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
-  color: #757575;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: #757575;
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1024,6 +1035,7 @@ footer .logo span {
   padding: 63px 24px;
   margin-top: 0;
   margin-bottom: 0;
+  font-weight: inherit;
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
@@ -1054,6 +1066,7 @@ footer .logo span {
 .portfolio__text {
   margin-top: 0;
   margin-bottom: 0;
+  font-weight: inherit;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
@@ -1084,8 +1097,8 @@ footer .logo span {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   cursor: pointer;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1107,8 +1120,8 @@ footer .logo span {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .section__team {
@@ -1147,17 +1160,18 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .team__text {
   margin-top: 0;
   margin-bottom: 16px;
+  font-weight: inherit;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .team-social__link {

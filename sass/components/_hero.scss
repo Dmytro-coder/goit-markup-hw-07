@@ -26,10 +26,8 @@
   margin-right: auto;
   width: 696px;
 
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
+  @include fonts-properties($fw: 900, $fs: 44px, $lh: 1.36, $ls: 0.06em);
+
   text-transform: uppercase;
 }
 
@@ -42,12 +40,10 @@
   min-width: 216px;
 
   color: $primery-white-color;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
+  @include fonts-properties($fw: 700, $fs: 16px, $lh: 1.88, $ls: 0.06em);
   align-items: center;
   text-align: center;
-  letter-spacing: 0.06em;
+
   cursor: pointer;
   transition: background-color $transition, box-shadow $transition;
 
