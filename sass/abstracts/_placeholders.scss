@@ -1,0 +1,12 @@
+%button {
+  background-color: $accent-color;
+  border: transparent;
+  border-radius: 4px;
+  min-height: 50px;
+  color: $primery-white-color;
+  @include fonts-properties($fw: 700, $fs: 16px, $lh: 1.88, $ls: 0.06em);
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color $transition, box-shadow $transition;
+}

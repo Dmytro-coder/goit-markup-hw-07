@@ -143,22 +143,11 @@
 .footer__button {
   display: inline-flex;
   justify-content: center;
-  align-items: center;
 
-  background-color: $accent-color;
-  border: transparent;
-  border-radius: 4px;
+  @extend %button;
   padding: 10px 28px;
   margin-left: 12px;
-  width: 200px;
-  height: 50px;
-
-  color: $primery-white-color;
-  @include fonts-properties($fw: 700, $fs: 16px, $lh: 1.88, $ls: 0.06em);
-  align-items: center;
-  text-align: center;
-  cursor: pointer;
-  transition: background-color $transition, box-shadow $transition;
+  min-width: 200px;
 
   &:hover,
   &:focus {
