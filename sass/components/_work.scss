@@ -2,19 +2,15 @@
   display: flex;
 }
 
-.work .work__card + .work__card {
+.work .work__item + .work__item {
   margin-left: 30px;
 }
 
-.section__work {
-  padding-top: 0;
-}
-
-.work__card {
+.work__item {
   position: relative;
 }
 
-.subtitle {
+.work__title {
   height: 70px;
   display: flex;
   align-items: center;
