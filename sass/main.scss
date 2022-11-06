@@ -1,11 +1,17 @@
+@import url('./utils/_fonts.scss');
+
 @import './base/normalise';
+
 @import './utils/variables';
 @import './utils/vh';
+
 @import './abstracts/mixins';
 @import './abstracts/placeholders';
+
 @import './base/base';
 @import './components/section';
 @import './components/container';
+
 @import './components/header';
 @import './components/logo';
 @import './components/nav';
