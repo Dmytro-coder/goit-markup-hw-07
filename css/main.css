@@ -615,7 +615,7 @@ footer .logo span {
           justify-content: center;
 }
 
-.team .team__card + .team__card {
+.team .team__item + .team__item {
   margin-left: 30px;
 }
 
