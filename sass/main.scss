@@ -3,10 +3,10 @@
 @import './base/normalise';
 
 @import './utils/variables';
-@import './utils/vh';
+@import './utils/visually-hidden';
 
-@import './abstracts/mixins';
-@import './abstracts/placeholders';
+@import './utils/mixins';
+@import './utils/placeholders';
 
 @import './base/base';
 @import './components/section';
