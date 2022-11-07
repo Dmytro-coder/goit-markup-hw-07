@@ -1379,10 +1379,7 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 50px;
-}
-
-.filter .filter__item + .filter__item {
-  margin-left: 8px;
+  gap: 8px;
 }
 
 .filter__button {
