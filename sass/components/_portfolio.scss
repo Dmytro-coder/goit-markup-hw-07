@@ -11,15 +11,22 @@
   background: $primery-white-color;
   border: 1px solid #eeeeee;
   transition: box-shadow $transition;
+
+  &:nth-child(3n) {
+    margin-right: 0;
+  }
+  &:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+  }
 }
 
-.portfolio__card:nth-child(3n) {
-  margin-right: 0;
-}
+// .portfolio__card:nth-child(3n) {
+//   margin-right: 0;
+// }
 
-.portfolio__card:nth-last-child(-n + 3) {
-  margin-bottom: 0;
-}
+// .portfolio__card:nth-last-child(-n + 3) {
+//   margin-bottom: 0;
+// }
 
 .portfolio__link {
   transition: box-shadow $transition;
