@@ -20,14 +20,6 @@
   }
 }
 
-// .portfolio__card:nth-child(3n) {
-//   margin-right: 0;
-// }
-
-// .portfolio__card:nth-last-child(-n + 3) {
-//   margin-bottom: 0;
-// }
-
 .portfolio__link {
   transition: box-shadow $transition;
 
@@ -55,6 +47,11 @@
   background: rgba(33, 150, 243, 0.9);
   transform: translateY(100%);
   transition: transform $transition;
+
+  .portfolio__link:hover &,
+  .portfolio__link:focus & {
+    transform: translateY(0%);
+  }
 }
 
 .portfolio__overlay--description {
@@ -64,11 +61,6 @@
 
   @include fonts-properties($fw: inherit, $fs: 18px, $lh: 1.56, $ls: 0.03em);
   color: $primery-white-color;
-}
-
-.portfolio__link:hover .portfolio__overlay,
-.portfolio__link:focus .portfolio__overlay {
-  transform: translateY(0%);
 }
 
 .portfolio__description {
